@@ -1,0 +1,44 @@
+/*
+Theme Name: duco
+Theme URI: http://webisabi.wordpress.com/duco/
+Author: Will Sabido
+Author URI: http://www.webisabi.co.uk/
+Description: Wordpress Child Theme based on the Pinboard theme
+Template: pinboard
+Version: 0.1
+
+If the Child Theme is used, this stylesheet will override the stylesheet within the Whiteboard Framework parent theme.
+*/
+
+/* Uncomment the following line line to import the Pinboard parent themes CSS file.*/
+@import url("../pinboard/style.css");
+@import url("../pinboard/rtl.css");
+
+header#header {
+background-image: url('../duco/images/duco-header-normal.jpg');
+background-repeat: no-repeat;
+}
+
+/*
+h1#site-title {
+background-image: url('../duco/images/duco-logo-web.jpg');
+background-repeat: no-repeat;
+}
+*/
+
+header#header {
+background-color: #653265;
+border-top: #653265 3px solid;
+}
+
+div#copyright {
+background-color: #653265;
+}
+
+nav#access {
+background-color: #653265;
+}
+
+div#footer-area.widget-area {
+background-color: #483a48;
+}

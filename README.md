@@ -1,4 +1,4 @@
 duco
 ====
 
-Responsive WordPress theme
+A responsive WordPress theme
