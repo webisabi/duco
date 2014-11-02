@@ -1,0 +1,4 @@
+duco
+====
+
+Responsive WordPress theme
